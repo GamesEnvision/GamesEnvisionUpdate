@@ -1,21 +1,21 @@
 Others:
- Playtime Increase by progressively increasing difficulty and level completion time.
- Number of Levels Increase
- Size < 30MB
- Plugin Update 5.4.0 Admob
- IAP plugin Update latest
- Slow rendering issue in prelaunch
- Use android 4.4 and up
- First Time simple tutorial all games
- Loading screen between 5-6 sec
- Ad icon on privacy policy
- Stability Clear all games
- Project cleaning all games
- Check behavior on focus out
- Test game on different resolution and specs device
- frame rate 60 if RAM > 2GB else frame rate 30 in pre-loader script
- auto quality chooser time 5 sec frame 25
- Game Flow with three panels Main Menu, Mode Selection, Level Selection or any 3 
+  . Playtime Increase by progressively increasing difficulty and level completion time.
+  . Number of Levels Increase
+  . Size < 30MB
+  . Plugin Update 5.4.0 Admob
+  . IAP plugin Update latest
+  . Slow rendering issue in prelaunch
+  . Use android 4.4 and up
+  . First Time simple tutorial all games
+  . Loading screen between 5-6 sec
+  . Ad icon on privacy policy
+  . Stability Clear all games
+  . Project cleaning all games
+  . Check behavior on focus out
+  . Test game on different resolution and specs device
+  . frame rate 60 if RAM > 2GB else frame rate 30 in pre-loader script
+  .  auto quality chooser time 5 sec frame 25
+  . Game Flow with three panels Main Menu, Mode Selection, Level Selection or any 3 
 panels; Loading screens after Level Selection, Next, Main Menu, Restart
  On Next Loading to Game Play
  skip level: after watching rewarded video next level should load and user will see 
