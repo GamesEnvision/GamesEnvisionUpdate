@@ -1,1 +1,239 @@
-dsada
+Others:
+ Playtime Increase by progressively increasing difficulty and level completion time.
+ Number of Levels Increase
+ Size < 30MB
+ Plugin Update 5.4.0 Admob
+ IAP plugin Update latest
+ Slow rendering issue in prelaunch
+ Use android 4.4 and up
+ First Time simple tutorial all games
+ Loading screen between 5-6 sec
+ Ad icon on privacy policy
+ Stability Clear all games
+ Project cleaning all games
+ Check behavior on focus out
+ Test game on different resolution and specs device
+ frame rate 60 if RAM > 2GB else frame rate 30 in pre-loader script
+ auto quality chooser time 5 sec frame 25
+ Game Flow with three panels Main Menu, Mode Selection, Level Selection or any 3 
+panels; Loading screens after Level Selection, Next, Main Menu, Restart
+ On Next Loading to Game Play
+ skip level: after watching rewarded video next level should load and user will see 
+loading screen after watching ad
+ on device less than 2 GB sirf gameplay ma frame rate 30 krain baaki jgah pa 60 kr 
+dain
+ rate us in main menu will take user to playstore
+Interstitial:
+First Remove All Interstitials by getting Instance of “MadActionGames”.
+ Exit-> Unity, Admob
+ Pause-> Admob, Unity 
+ Play -> Admob, Unity
+ Level Loading-> Admob, Unity
+ Win-> Admob, Unity
+ Lose-> Admob, Unity
+ Next-> After Level 10 Win: Admob
+Rewarded:
+ Rewarded: Unity->Admob 
+ Get gold rewarded button main menu 
+ 2x reward win panel 
+ IAP all bundles with rewarded
+ Skip level with rewarded button on level fail panel.
+Rating and Reviews:
+ In Game Review after level 3,15 win
+ More by us main menu, rate us main menu, privacy policy main menu.
+Cross Promotion:
+ Use cross promotion with UTM
+ Cross Promotion Main Menu, Pause, Win, Exit, Setting
+Analytics:
+ Funnel 1:
+From Main Menu to Gameplay Start track every click 
+ Funnel 2:
+From Level Start to Win every level or if endless mode then 
+makes separate funnel 
+ Funnel(s) 3:
+Main Start to Certain Action like exit click, setting, store, pause, restart, 
+main menu pause, main menu win, main menu loses etc. try to get every action.
+Final Updates Games Envision:
+Task Force: 
+stuck partial awake locks background 0.01
+slow frames 3.58
+frozen frames 28.16
+cold start 1.72
+warm start 8.12
+hot start 8.05
+crashes 0.15
+anr 0.23
+environment quality setting adjust 
+make long levels and enemy type with walking, idle, chasing
+no loading after play button
+disable ad on mode selection
+disable loading after mode selection
+no weapon selection in the flow
+send time in gamewin analytics
+cross promo in game start disable
+turn on auto fire by default
+disable rate us button from exit
+cross ad below yes/no button in exit panels
+cross promo in setting panel
+no loading in selection of weapon
+disable cross promo on loading screens
+cross promo in pause and win panel
+highlight level to select in level selection panel
+remove ads disable from win panel and main menu
+Army Playground:
+slow frames 4.11
+frozen frames 29.03
+cold start 1.82
+warm start 11.48
+hot start 6.91
+anr 0.26
+crash 0.26
+remove welcome bonus panel
+remove loading after play
+autofire by default on
+reload button
+on last bullet remove cross hair
+tutorial on level 1 win next
+more games remove from exit panel
+remove loading from iap 
+slow main menu cross 
+disable proceed from weapon
+remove weapon panel from main to gameplay flow
+on pause setting cross button not available 
+disable main menu button from win panel
+Zombie:
+slow frames 3.75
+frozen frames 34.48
+cold start 2.68
+warm start 7.85
+hot start 8.99
+anr 0.15
+crash 0.25
+make long levels and enemy type with walking, idle, chasing
+remove loading panel after play button
+remove mode selection loading and ad
+remove weapon selection from main to gameplay flow
+level 1 win next arrow in tutorial
+send time in gamewin analytics
+remove more by us from exit panel
+remove loading from weapon selection
+loading bar not running on restart and main menu
+delay in win panel animation and ad loading it looks very fast
+change environment and use jungle environment like task force and 
+make long levels with lot of zombies and easy to kill
+increase difficulty with levels 
+remove ads disable from win panel
+highlight level to select in level selection panel
+Sniper:
+slow frames 3.63
+frozen frames 37.48
+cold start 1.44
+warm start 6.1
+hot start 7.46
+anr 0.24
+crash 0.26
+Follow gamexis game flow for level design 
+remove loading panel after play
+mode selection with time add-on
+gameplay tutorial lock aim on enemy and then ask to press fire 
+button
+bullet count
+send time in gamewin analytics
+Gameplay UI change
+remove ads disable from setting panel main menu
+privacy policy ad image
+disable daily bonus
+on pause quit go to main menu instead of a new panel
+sensitivity adjust of aim when in zoom and out of zoom
+home button on upper left corner of screen
+disable 2x reward button after watching ad
+highlight continue button in UI adjust UI accordingly
+camera animation from enemy to player for every level
+blood effect change
+environment lighting adjust
+fail panel right side alligned as currently map on complete panel and 
+cause problem for medium rectangle
+desig 40 levels
+level number show in gameplay 
+Mini Car:
+slow frames 9.15
+frozen frames 38.07
+cold start 2.3
+warm start 8.58
+hot start 8.19
+anr 0.33
+crash 0.15
+skip ad on level 1 win
+follow mini car by gamexis game
+remove loading after play button
+ad after play button
+remove loading after mode selection
+remove car selection from main to gameplay flow
+tutorial in level1 win for next button press
+2x button animated
+remove 2x button after watching video
+more by us disable from exit panel
+cross ad below exit panel
+cross ad below setting panel
+remove loading from garage
+from next to loading to gameplay
+next button prominent
+Prado Parking:
+slow frames 4.59
+frozen frames 29.53
+cold start 1.37
+warm start 6.56
+hot start 6.31
+anr 0.23
+crash 0.22
+remove ads button main menu
+cross ad main menu
+main menu bg change
+remove loading after play button
+top down camera view set
+next button prominent
+Highway Car:
+slow frames 4.04
+frozen frames 36.78
+cold start 1.54
+warm start 6.27
+hot start 6.49
+anr 0.21
+crash 0.17
+iap set 
+add tutorial
+main menu scroll camera goes out of garage
+remove loading after mode selection
+environment lighting set and quality set
+cars color and quality set
+prominent time in gameplay
+main menu, restart, next stuck issue resolve
+traffic cars improved
+add 2-3 environments and change env in every level 
+add different effects in ever environment like night mode, day 
+mode, others
+Imp.Car:
+stuck partial wake locks background 0.15 bad behavior
+cold start 1.62
+anr 0.3
+crash 0.05
+more games text in main menu button
+setting back button under medium rectangle bg
+first time tutorial addon
+remove loading after play button
+add mode selection panel same level with time mode
+add 30 levels
+time parameter send in analytics
+back gear delay as sometime pressing break and car go back
+restart, main menu not working sometime stuck in loading
+current level button prominent in level selection panel
+next button in win panel prominent
+change skybox must be detailed
+New Games:
+ Fighting:
+Reference: 
+https://play.google.com/store/apps/details?id=com.fa.gym.fighting.game
+Hunting:
+ Reference: 
+https://play.google.com/store/apps/details?id=com.tensquaregames.hunting.cla
+sh.wild.hunter.dee
